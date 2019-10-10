@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
+    <title>KeyBoard</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap" rel="stylesheet"> -->
     <style>
         #phone button {
             height: 50px;
@@ -126,7 +124,6 @@
         var $result = $('#result');
         var val = $result.val();
         var button_enter = $this.attr("data-value");
-        console.log("in enter", button_enter)
 
         if (last_key !== button_enter) {
             reset()
